@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0CC05FF15ACB1080077FA19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CC05FE15ACB1080077FA19 /* Cocoa.framework */; };
+		A0CC060915ACB1080077FA19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0CC060715ACB1080077FA19 /* InfoPlist.strings */; };
+		A0CC060B15ACB1080077FA19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CC060A15ACB1080077FA19 /* main.m */; };
+		A0CC060F15ACB1080077FA19 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A0CC060D15ACB1080077FA19 /* Credits.rtf */; };
+		A0CC061215ACB1080077FA19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CC061115ACB1080077FA19 /* AppDelegate.m */; };
+		A0CC061515ACB1080077FA19 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0CC061315ACB1080077FA19 /* MainMenu.xib */; };
+		A0CC061D15ACB1080077FA19 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CC061C15ACB1080077FA19 /* SenTestingKit.framework */; };
+		A0CC061E15ACB1080077FA19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CC05FE15ACB1080077FA19 /* Cocoa.framework */; };
+		A0CC062615ACB1080077FA19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0CC062415ACB1080077FA19 /* InfoPlist.strings */; };
+		A0CC062915ACB1080077FA19 /* TextEditNanoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CC062815ACB1080077FA19 /* TextEditNanoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0CC061F15ACB1080077FA19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CC05F115ACB1080077FA19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CC05F915ACB1080077FA19;
+			remoteInfo = TextEditNano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0CC05FA15ACB1080077FA19 /* TextEditNano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextEditNano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CC05FE15ACB1080077FA19 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A0CC060115ACB1080077FA19 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A0CC060215ACB1080077FA19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A0CC060315ACB1080077FA19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0CC060615ACB1080077FA19 /* TextEditNano-Info.plist */ = {isa = PBXFileReference; path = "TextEditNano-Info.plist"; sourceTree = "<group>"; };
+		A0CC060815ACB1080077FA19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0CC060A15ACB1080077FA19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0CC060C15ACB1080077FA19 /* TextEditNano-Prefix.pch */ = {isa = PBXFileReference; path = "TextEditNano-Prefix.pch"; sourceTree = "<group>"; };
+		A0CC060E15ACB1080077FA19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A0CC061015ACB1080077FA19 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0CC061115ACB1080077FA19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0CC061415ACB1080077FA19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A0CC061B15ACB1080077FA19 /* TextEditNanoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextEditNanoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CC061C15ACB1080077FA19 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A0CC062315ACB1080077FA19 /* TextEditNanoTests-Info.plist */ = {isa = PBXFileReference; path = "TextEditNanoTests-Info.plist"; sourceTree = "<group>"; };
+		A0CC062515ACB1080077FA19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0CC062715ACB1080077FA19 /* TextEditNanoTests.h */ = {isa = PBXFileReference; path = TextEditNanoTests.h; sourceTree = "<group>"; };
+		A0CC062815ACB1080077FA19 /* TextEditNanoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextEditNanoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CC05F715ACB1080077FA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CC05FF15ACB1080077FA19 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CC061715ACB1080077FA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CC061D15ACB1080077FA19 /* SenTestingKit.framework in Frameworks */,
+				A0CC061E15ACB1080077FA19 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0CC05EF15ACB1080077FA19 = {
+			isa = PBXGroup;
+			children = (
+				A0CC060415ACB1080077FA19 /* TextEditNano */,
+				A0CC062115ACB1080077FA19 /* TextEditNanoTests */,
+				A0CC05FD15ACB1080077FA19 /* Frameworks */,
+				A0CC05FB15ACB1080077FA19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CC05FB15ACB1080077FA19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC05FA15ACB1080077FA19 /* TextEditNano.app */,
+				A0CC061B15ACB1080077FA19 /* TextEditNanoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0CC05FD15ACB1080077FA19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC05FE15ACB1080077FA19 /* Cocoa.framework */,
+				A0CC061C15ACB1080077FA19 /* SenTestingKit.framework */,
+				A0CC060015ACB1080077FA19 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0CC060015ACB1080077FA19 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC060115ACB1080077FA19 /* AppKit.framework */,
+				A0CC060215ACB1080077FA19 /* CoreData.framework */,
+				A0CC060315ACB1080077FA19 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A0CC060415ACB1080077FA19 /* TextEditNano */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC061015ACB1080077FA19 /* AppDelegate.h */,
+				A0CC061115ACB1080077FA19 /* AppDelegate.m */,
+				A0CC061315ACB1080077FA19 /* MainMenu.xib */,
+				A0CC060515ACB1080077FA19 /* Supporting Files */,
+			);
+			path = TextEditNano;
+			sourceTree = "<group>";
+		};
+		A0CC060515ACB1080077FA19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC060615ACB1080077FA19 /* TextEditNano-Info.plist */,
+				A0CC060715ACB1080077FA19 /* InfoPlist.strings */,
+				A0CC060A15ACB1080077FA19 /* main.m */,
+				A0CC060C15ACB1080077FA19 /* TextEditNano-Prefix.pch */,
+				A0CC060D15ACB1080077FA19 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0CC062115ACB1080077FA19 /* TextEditNanoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC062715ACB1080077FA19 /* TextEditNanoTests.h */,
+				A0CC062815ACB1080077FA19 /* TextEditNanoTests.m */,
+				A0CC062215ACB1080077FA19 /* Supporting Files */,
+			);
+			path = TextEditNanoTests;
+			sourceTree = "<group>";
+		};
+		A0CC062215ACB1080077FA19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC062315ACB1080077FA19 /* TextEditNanoTests-Info.plist */,
+				A0CC062415ACB1080077FA19 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CC05F915ACB1080077FA19 /* TextEditNano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CC062C15ACB1080077FA19 /* Build configuration list for PBXNativeTarget "TextEditNano" */;
+			buildPhases = (
+				A0CC05F615ACB1080077FA19 /* Sources */,
+				A0CC05F715ACB1080077FA19 /* Frameworks */,
+				A0CC05F815ACB1080077FA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextEditNano;
+			productName = TextEditNano;
+			productReference = A0CC05FA15ACB1080077FA19 /* TextEditNano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0CC061A15ACB1080077FA19 /* TextEditNanoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CC062F15ACB1080077FA19 /* Build configuration list for PBXNativeTarget "TextEditNanoTests" */;
+			buildPhases = (
+				A0CC061615ACB1080077FA19 /* Sources */,
+				A0CC061715ACB1080077FA19 /* Frameworks */,
+				A0CC061815ACB1080077FA19 /* Resources */,
+				A0CC061915ACB1080077FA19 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CC062015ACB1080077FA19 /* PBXTargetDependency */,
+			);
+			name = TextEditNanoTests;
+			productName = TextEditNanoTests;
+			productReference = A0CC061B15ACB1080077FA19 /* TextEditNanoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CC05F115ACB1080077FA19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A0CC05F415ACB1080077FA19 /* Build configuration list for PBXProject "TextEditNano" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0CC05EF15ACB1080077FA19;
+			productRefGroup = A0CC05FB15ACB1080077FA19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CC05F915ACB1080077FA19 /* TextEditNano */,
+				A0CC061A15ACB1080077FA19 /* TextEditNanoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CC05F815ACB1080077FA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CC060915ACB1080077FA19 /* InfoPlist.strings in Resources */,
+				A0CC060F15ACB1080077FA19 /* Credits.rtf in Resources */,
+				A0CC061515ACB1080077FA19 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CC061815ACB1080077FA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CC062615ACB1080077FA19 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0CC061915ACB1080077FA19 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CC05F615ACB1080077FA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CC060B15ACB1080077FA19 /* main.m in Sources */,
+				A0CC061215ACB1080077FA19 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CC061615ACB1080077FA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CC062915ACB1080077FA19 /* TextEditNanoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0CC062015ACB1080077FA19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CC05F915ACB1080077FA19 /* TextEditNano */;
+			targetProxy = A0CC061F15ACB1080077FA19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0CC060715ACB1080077FA19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CC060815ACB1080077FA19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0CC060D15ACB1080077FA19 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CC060E15ACB1080077FA19 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A0CC061315ACB1080077FA19 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CC061415ACB1080077FA19 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A0CC062415ACB1080077FA19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CC062515ACB1080077FA19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0CC062A15ACB1080077FA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0CC062B15ACB1080077FA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A0CC062D15ACB1080077FA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextEditNano/TextEditNano-Prefix.pch";
+				INFOPLIST_FILE = "TextEditNano/TextEditNano-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0CC062E15ACB1080077FA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextEditNano/TextEditNano-Prefix.pch";
+				INFOPLIST_FILE = "TextEditNano/TextEditNano-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A0CC063015ACB1080077FA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextEditNano.app/Contents/MacOS/TextEditNano";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextEditNano/TextEditNano-Prefix.pch";
+				INFOPLIST_FILE = "TextEditNanoTests/TextEditNanoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A0CC063115ACB1080077FA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextEditNano.app/Contents/MacOS/TextEditNano";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextEditNano/TextEditNano-Prefix.pch";
+				INFOPLIST_FILE = "TextEditNanoTests/TextEditNanoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CC05F415ACB1080077FA19 /* Build configuration list for PBXProject "TextEditNano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CC062A15ACB1080077FA19 /* Debug */,
+				A0CC062B15ACB1080077FA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CC062C15ACB1080077FA19 /* Build configuration list for PBXNativeTarget "TextEditNano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CC062D15ACB1080077FA19 /* Debug */,
+				A0CC062E15ACB1080077FA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0CC062F15ACB1080077FA19 /* Build configuration list for PBXNativeTarget "TextEditNanoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CC063015ACB1080077FA19 /* Debug */,
+				A0CC063115ACB1080077FA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0CC05F115ACB1080077FA19 /* Project object */;
+}

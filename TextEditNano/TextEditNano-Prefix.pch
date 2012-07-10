@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TextEditNano' target in the 'TextEditNano' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
